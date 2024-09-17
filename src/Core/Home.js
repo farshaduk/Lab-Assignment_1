@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   return (
   <>
-<section  className="py-3 py-md-5">
+<section  className="py-3 py-md-5 mt-5">
   <div  className="container">
     <div  className="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
       <div  className="col-12">
