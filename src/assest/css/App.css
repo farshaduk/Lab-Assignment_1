@@ -1,0 +1,82 @@
+/*Rouhollah Kamali StudentID : 301495125    9/21/2024   */
+
+
+body {
+  font-family: 'Roboto', sans-serif; /* Set the default font to Roboto */
+  background-color: #f4f4f4; /* Light grey background for the entire body */
+  color: #333; /* Dark grey text color */
+}
+
+.navbar {
+  background-color: #343a40; /* Dark background for the navigation bar */
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important; /* White text color for navbar brand and links, forcing it with !important */
+}
+
+.hero {
+  background: url('/src/assest/background1.jpg') no-repeat center center; /* Hero section with a centered background image */
+  background-size: cover; /* Ensure the background image covers the entire area */
+  height: 70vh; /* Set height to 70% of the viewport height */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  text-align: center; /* Center text within the hero section */
+  color: white; /* White text color for visibility against the background */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for improved readability */
+}
+
+.section {
+  padding: 60px 0; /* Add vertical padding to sections for spacing */
+}
+
+.contact-form, .contact-info {
+  background-color: #ffffff; /* White background for contact sections */
+  padding: 30px; /* Inner padding for spacing within contact sections */
+  border-radius: 8px; /* Rounded corners for a softer appearance */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 600px; /* Maximum width for the sections */
+  margin: auto; /* Center the sections horizontally */
+  margin-top: 50px; /* Space above the contact sections */
+}
+
+.contact-form h2 {
+  margin-bottom: 20px; /* Space below the heading in the contact form */
+}
+
+footer {
+  background-color: #343a40; /* Dark background for the footer */
+  color: #ffffff; /* White text color for footer content */
+  padding: 20px 0; /* Padding for the footer */
+}
+
+.service-card {
+  border: 1px solid #dee2e6; /* Light border for service cards */
+  border-radius: 10px; /* Rounded corners for service cards */
+  transition: transform 0.2s; /* Smooth transition effect for scaling */
+}
+
+.service-card:hover {
+  transform: scale(1.05); /* Scale up the card slightly on hover */
+}
+
+.service-icon {
+  font-size: 40px; /* Size for service icons */
+  color: #007bff; /* Blue color for icons */
+}
+
+.project-card {
+  transition: transform 0.2s; /* Smooth transition effect for scaling */
+  border-radius: 10px; /* Rounded corners for project cards */
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Scale up the project card slightly on hover */
+}
+
+.project-image {
+  border-radius: 10px 10px 0 0; /* Rounded corners on the top of the project image */
+  max-height: 200px; /* Maximum height for project images */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+}
