@@ -1,6 +1,18 @@
 /*Rouhollah Kamali StudentID : 301495125    9/21/2024   */
 
-import logo from '../assest/logo.png'
+import logo from '../assest/profile-pic.png'
+import resume from  '../assest/Resume.pdf'
+
+/* Function to download the Resume.pdf file when called */
+const onButtonClick = () => {
+  const Url = resume;
+  const link = document.createElement("a");
+  link.href = Url;
+  link.download = "Resume.pdf"; // specify the filename
+  document.body.appendChild(link);  
+  link.click();                      // Programmatically click the link to trigger the download  
+  document.body.removeChild(link);   // Remove the link from the document after triggering the download
+};
 
 export default function About() {
 return (
@@ -18,8 +30,9 @@ return (
         <div  className="row justify-content-xl-center">
           <div  className="col-12 col-xl-11">
             <h2  className="mb-3">Who am I?</h2>
-            <p  className="lead fs-4 text-secondary mb-3">Hello! I’m Rouhollah Kamali , but just call me Farshad, a computer engineer with a passion for web development and new technologies.</p>
-            <p  className="mb-5">Eexperiences in designing, developing, and optimizing web applications by ASP.NET Core. and have a CCNA & Azure certifications </p>
+            <p  className="lead fs-4 text-secondary mb-3">Hello, I’m Rouhollah Kamali, but you can call me Farshad. I am a computer engineer with a strong passion for web development and emerging technologies.</p>
+            <p  className="mb-5">I have extensive experience in designing, developing, and optimizing web applications using ASP.NET Core, and I hold certifications in CCNA and Azure</p>
+            <p className="lead fs-4 text-secondary mb-3"><button  className="btn btn-primary btn-lg" onClick={onButtonClick}>dowload my resume</button ></p>
           </div>
         </div>
       </div>

@@ -4,9 +4,7 @@
 export default function services(){
 return(
     <>
-  {/* my services section  */}
-    
-
+  {/* my services section  */}   
 <div className="container mt-5">
     <div className="row">
     <h1>ASP.NET Core Development Services</h1>

@@ -45,12 +45,10 @@ const MainLayout = () => {
 
        {/* nested routes to rendere child route components  */}   
         <Outlet />  
-
          {/* footer Section  */}    
         <footer>
         <div className="container text-center">
             <p>© Rouhollah Kamali 2024. All rights reserved.</p>
-            <a href="https://linkedin.com/in/yourprofile" className="btn btn-link" target="_blank">My LinkedIn</a>
             <Link to="https://github.com/farshaduk" className="btn btn-link" target="_blank">My GitHub</Link>
         </div>
     </footer>

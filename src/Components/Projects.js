@@ -1,6 +1,8 @@
 
 /*Rouhollah Kamali StudentID : 301495125    9/21/2024   */
 
+
+/* Function to dynamically import all images from img inside assest  */
 function importAll(r) {
     let images = {};
     r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
