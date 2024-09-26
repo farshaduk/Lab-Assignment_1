@@ -47,7 +47,7 @@ const MainLayout = () => {
         <Outlet />  
          {/* footer Section  */}    
         <footer>
-        <div className="container text-center">
+        <div className="container text-center">   
             <p>© Rouhollah Kamali 2024. All rights reserved.</p>
             <Link to="https://github.com/farshaduk" className="btn btn-link" target="_blank">My GitHub</Link>
         </div>

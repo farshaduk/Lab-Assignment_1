@@ -14,7 +14,7 @@ const onButtonClick = () => {
   document.body.removeChild(link);   // Remove the link from the document after triggering the download
 };
 
-export default function About() {
+export default function About() { 
 return (
 <>
  {/* About me section  */}
